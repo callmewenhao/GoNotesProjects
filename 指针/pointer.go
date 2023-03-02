@@ -40,13 +40,13 @@ func reclassify(planets *[]string) {
 }
 
 func main() {
-	planets := []string{
-		"Mercury", "Venus", "Earth", "Mars",
-		"Jupiter", "Saturn", "Uranus", "Neptune",
-		"Pluto",
-	}
-	reclassify(&planets)
-	fmt.Println(planets)
+	//planets := []string{
+	//	"Mercury", "Venus", "Earth", "Mars",
+	//	"Jupiter", "Saturn", "Uranus", "Neptune",
+	//	"Pluto",
+	//}
+	//reclassify(&planets)
+	//fmt.Println(planets)
 
 	//var board [8][8]rune
 	//reset(&board)
@@ -113,9 +113,9 @@ func main() {
 	// output
 	//&{name:Timothy superpower:flying age:10}
 
-	//superpowers := [3]string{"flight", "invisibility", "super strength"}
-	//fmt.Println(superpowers[0])
-	//fmt.Println(superpowers[1:2])
+	superpowers := &[3]string{"flight", "invisibility", "super strength"}
+	fmt.Println(superpowers[0])
+	fmt.Println(superpowers[1:2])
 	// output
 	// flight
 	// [invisibility]

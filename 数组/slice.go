@@ -3,12 +3,12 @@ package main
 import "fmt"
 
 func main() {
-	//neptune := "Neptune"
-	//tune := neptune[3:]
-	//
-	//fmt.Println(tune) // tune
-	//neptune = "Poseidon"
-	//fmt.Println(tune) // tune
+	neptune := "Neptune"
+	tune := neptune[3:]
+
+	fmt.Println(tune) // tune
+	neptune = "Poseidon"
+	fmt.Println(tune) // tune
 
 	//planets := []string{"Mercury", "Venus", "Earth", "Mars",
 	//	"Jupiter", "Saturn", "Uranus", "Neptune",
@@ -53,11 +53,11 @@ func main() {
 	//dwarfs1 = append(dwarfs1, "ceres", "Pluto", "Haumea", "Makemake", "Eris") // 在原来的基础上 append
 	//dump(" dwarfs1", dwarfs1)
 
-	twoWorlds := terraform("New", "Venus", "Mars")
-	fmt.Println(twoWorlds)
-	planets := []string{"Venus", "Mars", "Jupiter"}
-	newPlanets := terraform("New", planets...)
-	fmt.Println(newPlanets)
+	//twoWorlds := terraform("New", "Venus", "Mars")
+	//fmt.Println(twoWorlds)
+	//planets := []string{"Venus", "Mars", "Jupiter"}
+	//newPlanets := terraform("New", planets...)
+	//fmt.Println(newPlanets)
 
 }
 
